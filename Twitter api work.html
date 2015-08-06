@@ -1,0 +1,44 @@
+<!DOCTYPE html> 	 	
+	<html>
+	<head>
+	
+	<script src="https://api.twitter.com/oauth/request_token"></script>
+<script>
+var twitterUsername @ = "maxie90089412";
+	var twitterUsername = ;
+	 var xhr = new XMLHttpRequest();
+  xhr.open(form.method, form.action, true);
+  xhr.setRequestHeader('Content-Type', 'application/json; charset=UTF-8');
+  
+  var urlpost = "https://api.twitter.com/1.1/friendships/create.json?screen_name=" + twitterUsername+"&follow=true";
+ 
+var twitterLink ="https://twitter.com/" + username 
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+
+</script>
+
+  </head>
+  <body>
+  <a href= twitterLink class="twitter-follow-button" data-show-count="false" data-size="large"> Follow</a>
+  
+  <!-- TODO clean up twitter follow button script tag, add variable functionality for username-->
+  <!--<a href="https://twitter.com/maxie90089412" class="twitter-follow-button" data-show-count="false">Follow @maxie90089412</a>-->
+<script>
+	!function(d,s,id){
+	var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
+	if(!d.getElementById(id)){
+	js=d.createElement(s);
+	js.id=id;
+	js.src=p+'://platform.twitter.com/widgets.js';
+	fjs.parentNode.insertBefore(js,fjs);
+	}
+	}
+	(document, 'script', 'twitter-wjs');
+</script>
+  
+  
+  <form action= urlpost method="POST" role="form" class="form-horizontal">
+	<input type="submit" value="Submit">
+	</form>
+	</body>
+	</html>
